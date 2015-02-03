@@ -21,6 +21,10 @@ p{
     max-width: 700px;
 }
 
+footer p{
+    max-width: 100%;
+}
+
 #wrapper {
     display: block;
     min-height: 100%;
