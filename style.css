@@ -17,6 +17,9 @@ body {
     margin: 0;
     height: 100%;
 }
+p{
+    max-width: 700px;
+}
 
 #wrapper {
     display: block;
@@ -49,7 +52,6 @@ header menu li img {
     margin-left: 20px;
     border: 3px solid transparent;
     border-radius: 64px;
-
 }
 
 header menu li a img:hover {
@@ -75,17 +77,19 @@ footer {
 
 .container {
     margin: 0 auto;
-    width: 1000px;
+    max-width: 1000px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .main_column {
     display: inline-block;
-    width: 700px;
+    max-width: 700px;
 }
 
 .secondary_column {
     display: inline-block;
-    width: 300px;
+    max-width: 300px;
 }
 
 .left {
@@ -172,9 +176,11 @@ ul.navigation_menu li {
     width: 230px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
     padding: 10px;
     border: solid 1px #DAE6E6;
     border-radius: 25px;
+    height: 180px;
 }
 
 .product_column:hover {
